@@ -24,61 +24,61 @@
         compatible = "zmk,combos";
         
         combo_tab {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <0 1>;
             bindings = <&kp TAB>;
         };
 
         combo_esc {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <10 11>;
             bindings = <&kp ESC>;
         };
 
         combo_quote {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <18 19>;
             bindings = <&kp SQT>;
         };
 
         combo_enter {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <28 29>;
             bindings = <&kp ENTER>;
         };
         
         combo_lctrl {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <20 21>;
             bindings = <&kp LCTRL>;
         };
 
         combo_lgui {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <21 22>;
             bindings = <&kp LGUI>;
         };
         
         combo_lalt {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <22 23>;
             bindings = <&kp LALT>;
         };
 
         combo_rctrl {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <27 28>;
             bindings = <&kp RCTRL>;
         };
 
         combo_rgui {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <26 27>;
             bindings = <&kp RGUI>;
         };
         
         combo_ralt {
-            timeout-ms = <25>;
+            timeout-ms = <35>;
             key-positions = <25 26>;
             bindings = <&kp RALT>;
         };
@@ -152,7 +152,7 @@
             bindings = <
                 &kp N1    &kp N2 &kp N3        &kp N4   &kp N5           &kp N6   &kp N7   &kp N8    &kp N9    &kp N0
                 &kp GRAVE &trans &trans        &kp HOME &kp PG_UP        &kp LEFT &kp DOWN &kp UP    &kp RIGHT &kp LBKT
-                &trans    &trans &kp C_AL_CALC &kp END  &kp PG_DN        &trans   &kp BSLH &kp MINUS &kp PLUS  &kp RBKT
+                &trans    &trans &kp C_AL_CALC &kp END  &kp PG_DN        &trans   &kp BSLH &kp MINUS &kp EQUAL &kp RBKT
                                                &sk LSFT &kp SPC          &kp BKSP &mo SYMB 
             >;
         };
