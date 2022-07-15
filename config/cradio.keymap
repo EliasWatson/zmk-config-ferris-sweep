@@ -12,6 +12,11 @@
 #define SYMB    1
 #define FUNC    2
 
+&mt {
+    tapping-term-ms = <201>;
+    flavor = "tap-preferred";
+};
+
 / {
     behaviors {
         brm: bottom_row_mods {
